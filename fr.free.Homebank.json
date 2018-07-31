@@ -1,7 +1,7 @@
 {
     "id": "fr.free.Homebank",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.26",
+    "runtime-version": "3.28",
     "sdk": "org.gnome.Sdk",
     "command": "homebank",
     "rename-icon": "homebank",
@@ -84,12 +84,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "http://homebank.free.fr/public/homebank-5.1.6.tar.gz",
-                "sha256": "2861e11590a00f5cbc505293821cb8caeabb74c26babe8a6a9d728f3404290e0"
-            },
-            {
-                "type": "patch",
-                "path": "desktop-locale.patch"
+                "url": "http://homebank.free.fr/public/homebank-5.1.8.tar.gz",
+                "sha256": "1083fcbc609cbc981a42c63d84a09cc7dc3dd40f57d29e08b720be2b3eaff23b"
             }
         ],
         "post-install": [
