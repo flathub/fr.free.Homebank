@@ -1,7 +1,7 @@
 {
     "id": "fr.free.Homebank",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.28",
+    "runtime-version": "3.30",
     "sdk": "org.gnome.Sdk",
     "command": "homebank",
     "rename-icon": "homebank",
@@ -74,8 +74,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://github.com/libofx/libofx/archive/0.9.12.tar.gz",
-                "sha256": "0288d0166b3e60e8ebbdcf4ac54b034082820d856a09912b748f2aec9b247130"
+                "url": "https://github.com/libofx/libofx/archive/0.9.13.tar.gz",
+                "sha256": "8e8838e81da76aa32b5bd4f38297b612bd7ec3110bf1b139e49ba8aaba94d3e2"
             }
         ]
     },
@@ -84,8 +84,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "http://homebank.free.fr/public/homebank-5.1.8.tar.gz",
-                "sha256": "1083fcbc609cbc981a42c63d84a09cc7dc3dd40f57d29e08b720be2b3eaff23b"
+                "url": "http://homebank.free.fr/public/homebank-5.2.2.tar.gz",
+                "sha256": "acc8221fffbbe4b6ddc23fe845fa061cae2ecf7643f2ed858adc9a2e6e2295a5"
             }
         ],
         "post-install": [
