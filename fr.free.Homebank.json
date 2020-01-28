@@ -1,7 +1,7 @@
 {
     "id": "fr.free.Homebank",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.30",
+    "runtime-version": "3.34",
     "sdk": "org.gnome.Sdk",
     "command": "homebank",
     "rename-icon": "homebank",
@@ -13,10 +13,6 @@
             "--device=dri",
             "--socket=wayland",
             "--filesystem=home",
-            "--talk-name=ca.desrt.dconf",
-            "--filesystem=xdg-run/dconf",
-            "--filesystem=~/.config/dconf:ro",
-            "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
             "--share=network"
     ],
     "modules": [
@@ -79,13 +75,14 @@
             }
         ]
     },
+    "shared-modules/intltool/intltool-0.51.json",
     {
         "name": "homebank",
         "sources": [
             {
                 "type": "archive",
-                "url": "http://homebank.free.fr/public/homebank-5.2.2.tar.gz",
-                "sha256": "acc8221fffbbe4b6ddc23fe845fa061cae2ecf7643f2ed858adc9a2e6e2295a5"
+                "url": "http://homebank.free.fr/public/homebank-5.3.1.tar.gz",
+                "sha256": "1bc286039f8b318b959f2faa7a1f06db432ed5181a51a287d2c88ec150f63485"
             }
         ],
         "post-install": [
