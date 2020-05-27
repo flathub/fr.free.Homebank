@@ -81,8 +81,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "http://homebank.free.fr/public/homebank-5.3.1.tar.gz",
-                "sha256": "1bc286039f8b318b959f2faa7a1f06db432ed5181a51a287d2c88ec150f63485"
+                "url": "http://homebank.free.fr/public/homebank-5.4.2.tar.gz",
+                "sha256": "c6ce84b421e7199ae545ea8b8d981f347af4d67b4cd5912b6789cf1450db722e"
             }
         ],
         "post-install": [
