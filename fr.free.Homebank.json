@@ -1,7 +1,7 @@
 {
     "id": "fr.free.Homebank",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.34",
+    "runtime-version": "40",
     "sdk": "org.gnome.Sdk",
     "command": "homebank",
     "rename-icon": "homebank",
@@ -9,7 +9,8 @@
     "rename-desktop-file": "homebank.desktop",
     "rename-appdata-file": "homebank.appdata.xml",
     "finish-args": [
-            "--share=ipc", "--socket=x11",
+            "--share=ipc", 
+            "--socket=x11",
             "--device=dri",
             "--socket=wayland",
             "--filesystem=home",
@@ -19,7 +20,9 @@
     {
         "name": "opensp",
         "rm-configure": true,
-        "config-opts": [ "--disable-doc-build" ],
+        "config-opts": [ 
+                "--disable-doc-build"
+        ],
         "sources": [
             {
                 "type": "archive",
@@ -44,12 +47,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://ftp.gnu.org/gnu/gengetopt/gengetopt-2.22.6.tar.gz",
-                "sha256": "30b05a88604d71ef2a42a2ef26cd26df242b41f5b011ad03083143a31d9b01f7"
-            },
-            {
-                "type": "patch",
-                "path": "makefile.patch"
+                "url": "https://ftp.gnu.org/gnu/gengetopt/gengetopt-2.23.tar.xz",
+                "sha256": "b941aec9011864978dd7fdeb052b1943535824169d2aa2b0e7eae9ab807584ac"
             },
             {
                 "type": "script",
@@ -70,8 +69,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://github.com/libofx/libofx/archive/0.9.13.tar.gz",
-                "sha256": "8e8838e81da76aa32b5bd4f38297b612bd7ec3110bf1b139e49ba8aaba94d3e2"
+                "url": "https://github.com/libofx/libofx/archive/0.9.15.tar.gz",
+                "sha256": "74a9370da560526424ab62d79f7301f86620a8566c3f38cfc4684e63a4aac155"
             }
         ]
     },
@@ -81,8 +80,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "http://homebank.free.fr/public/homebank-5.4.2.tar.gz",
-                "sha256": "c6ce84b421e7199ae545ea8b8d981f347af4d67b4cd5912b6789cf1450db722e"
+                "url": "http://homebank.free.fr/public/homebank-5.5.1.tar.gz",
+                "sha256": "9bb39eaad3c4c68d2bcbe21e2f6c4a5274e3a3f385afb2b2ff73ae5fd998da08"
             }
         ],
         "post-install": [
