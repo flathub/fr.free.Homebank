@@ -81,7 +81,7 @@
             {
                 "type": "archive",
                 "url": "http://homebank.free.fr/public/homebank-5.5.4.tar.gz",
-                "sha256": "1c753807d6ec40fcfcf4a3937d61fc3e797c7e2d68f2094f22bb663c91115252"
+                "sha256": "0d0669bca099340ae5c213ea13cb2b93283bfc8a0e4cf7a5902c1829366e5765"
             }
         ],
         "post-install": [
