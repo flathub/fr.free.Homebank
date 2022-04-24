@@ -1,7 +1,7 @@
 {
     "id": "fr.free.Homebank",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "40",
+    "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
     "command": "homebank",
     "rename-icon": "homebank",
@@ -9,7 +9,7 @@
     "rename-desktop-file": "homebank.desktop",
     "rename-appdata-file": "homebank.appdata.xml",
     "finish-args": [
-            "--share=ipc", 
+            "--share=ipc",
             "--socket=fallback-x11",
             "--device=dri",
             "--socket=wayland",
@@ -20,7 +20,7 @@
     {
         "name": "opensp",
         "rm-configure": true,
-        "config-opts": [ 
+        "config-opts": [
                 "--disable-doc-build"
         ],
         "sources": [
@@ -40,9 +40,6 @@
     },
     {
         "name": "gengetopt",
-        "config-opts": [ 
-            "--prefix=/app"
-            ],
         "rm-configure": true,
         "sources": [
             {
@@ -62,8 +59,8 @@
     {
         "name": "libofx",
         "no-parallel-make": true,
-        "config-opts": [ 
-            "--with-opensp-includes=/app/include/OpenSP", 
+        "config-opts": [
+            "--with-opensp-includes=/app/include/OpenSP",
             "--with-opensp-libs=/lib"
             ],
         "sources": [
