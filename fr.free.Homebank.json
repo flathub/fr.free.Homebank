@@ -1,7 +1,7 @@
 {
     "id": "fr.free.Homebank",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "command": "homebank",
     "rename-icon": "homebank",
@@ -71,14 +71,15 @@
             }
         ]
     },
+    "shared-modules/libsoup/libsoup-2.4.json",
     "shared-modules/intltool/intltool-0.51.json",
     {
         "name": "homebank",
         "sources": [
             {
                 "type": "archive",
-                "url": "http://homebank.free.fr/public/homebank-5.5.5.tar.gz",
-                "sha256": "bece05ecb52392147424aa1e5a179389777b82bf468abebd73eb70b2af9c9e67"
+                "url": "http://homebank.free.fr/public/sources/homebank-5.6.3.tar.gz",
+                "sha256": "419475f564bbd9be7f4101b1197ce53ea21e8374bcf0505391406317ed823828"
             },
             {
                 "type": "patch",
