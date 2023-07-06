@@ -1,5 +1,5 @@
 --- a/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ b/data/homebank.appdata.xml.in	2023-07-06 07:32:29.597148742 +0200
++++ b/data/homebank.appdata.xml.in	2023-07-06 07:45:34.805283725 +0200
 @@ -1,23 +1,23 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
@@ -45,8 +45,8 @@
 +  <releases>
 +    <release date="2023-06-21" version="5.6.5">
 +      <description>
++	<p>This is a bugfix release:</p>
 +	<ul>
-+	  <p>This is a bugfix release:</p>
 +	  <li>bugfix: #2024243	when creating splits for income transactions, expenses are added as incomes regardless of amount sign</li>
 +	  <li>bugfix: #2023388	account cannot be deleted message is not precise enough</li>
 +	  <li>bugfix: #2022049	windows: displayed values overflow int32 in 5.6.4</li>
