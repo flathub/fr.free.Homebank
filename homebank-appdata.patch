@@ -1,6 +1,6 @@
---- a/data/homebank.appdata.xml.in	2022-04-24 10:19:48.860593984 -0400
-+++ b/data/homebank.appdata.xml.in	2022-04-24 10:20:12.461909047 -0400
-@@ -1,6 +1,6 @@
+--- a/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ b/data/homebank.appdata.xml.in	2023-07-06 07:45:34.805283725 +0200
+@@ -1,23 +1,23 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -9,12 +9,51 @@
    <metadata_license>CC0-1.0</metadata_license>
    <project_license>GPL-2.0+</project_license>
    <name>HomeBank</name>
-@@ -26,4 +26,8 @@
+   <summary>Free, easy, personal accounting, for everyone</summary>
+   <description>
+-    <_p>
+-      HomeBank is a free software (as in "free speech" and also as in "free beer") 
++    <p>
++      HomeBank is a free software (as in "free speech" and also as in "free beer")
+       that will assist you to manage your personal accounting.
+-    </_p>
+-    <_p>
+-      It is designed to easy to use and be able to analyse your personal finance 
++    </p>
++    <p>
++      It is designed to easy to use and be able to analyse your personal finance
+       in detail using powerful filtering tools and beautiful graphs.
+-    </_p>
+-    <_p>
+-      If you are looking for a completely free and easy way to manage your personal 
++    </p>
++    <p>
++      If you are looking for a completely free and easy way to manage your personal
+       accounting then HomeBank should be the software of choice.
+-    </_p>
++    </p>
+   </description>
+   <screenshots>
+     <screenshot type="default">
+@@ -25,5 +25,21 @@
+     </screenshot>
    </screenshots>
    <url type="homepage">http://homebank.free.fr</url>
++  <url type="bugtracker">https://launchpad.net/homebank/+filebug</url>
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
-+    <release date="2023-06-15" version="5.6.4"/>
++    <release date="2023-06-21" version="5.6.5">
++      <description>
++	<p>This is a bugfix release:</p>
++	<ul>
++	  <li>bugfix: #2024243	when creating splits for income transactions, expenses are added as incomes regardless of amount sign</li>
++	  <li>bugfix: #2023388	account cannot be deleted message is not precise enough</li>
++	  <li>bugfix: #2022049	windows: displayed values overflow int32 in 5.6.4</li>
++	  <li>bugfix: #2019312	status column included in export detail txn from report break re-import</li>
++	  <li>bugfix: #2018039	lock icon for reconciled txn is not displayed in report detail</li>
++	</ul>
++      </description>
++    </release>
 +  </releases>
  </component>
