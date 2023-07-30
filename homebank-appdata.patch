@@ -1,6 +1,6 @@
---- a/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ b/data/homebank.appdata.xml.in	2023-07-06 07:45:34.805283725 +0200
-@@ -1,23 +1,23 @@
+--- homebank-5.6.5/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2023-07-30 08:05:06.029574435 +0200
+@@ -1,29 +1,51 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -35,7 +35,14 @@
    </description>
    <screenshots>
      <screenshot type="default">
-@@ -25,5 +25,21 @@
+-      <image width="624" type="default" height="351">http://homebank.free.fr/img/homebank-appdata.png</image>
++      <image>https://raw.githubusercontent.com/flathub/fr.free.Homebank/master/homebank.png</image>
++    </screenshot>
++    <screenshot>
++      <image>https://raw.githubusercontent.com/flathub/fr.free.Homebank/master/homebank-balance-report.png</image>
++    </screenshot>
++    <screenshot>
++      <image>https://raw.githubusercontent.com/flathub/fr.free.Homebank/master/homebank-vehicule-cost-report.png</image>
      </screenshot>
    </screenshots>
    <url type="homepage">http://homebank.free.fr</url>
