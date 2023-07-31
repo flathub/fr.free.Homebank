@@ -1,6 +1,6 @@
 --- homebank-5.6.5/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2023-07-30 08:05:06.029574435 +0200
-@@ -1,29 +1,51 @@
++++ homebank/data/homebank.appdata.xml.in	2023-07-31 17:35:52.514653437 +0200
+@@ -1,29 +1,52 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -47,6 +47,7 @@
    </screenshots>
    <url type="homepage">http://homebank.free.fr</url>
 +  <url type="bugtracker">https://launchpad.net/homebank/+filebug</url>
++  <url type="donation">http://homebank.free.fr/fr/donate.php</url>
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
