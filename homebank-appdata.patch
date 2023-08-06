@@ -1,6 +1,6 @@
 --- homebank-5.6.5/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2023-07-31 17:35:52.514653437 +0200
-@@ -1,29 +1,52 @@
++++ homebank/data/homebank.appdata.xml.in	2023-08-06 23:00:34.704576009 +0200
+@@ -1,29 +1,67 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -51,6 +51,21 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2023-07-04" version="5.6.6">
++      <description>
++	<p>This is a bugfix release:</p>
++	<ul>
++	  <li>bugfix: #2027201 when ordering the transaction list by category, split ones are not ordered</li>
++	  <li>bugfix: #2026641 anonymise does not deal with account notes, start balance, overdraft and automatic assignment notes</li>
++	  <li>bugfix: #2026626 anonymise feature doesn't fully anonymise accounts name</li>
++	  <li>bugfix: #2026594 changing currency account with xfer faulty change target account currency</li>
++	  <li>bugfix: #2026184 statistics report doesn't always show total for parent category</li>
++	  <li>bugfix: #2024940 statistics faulty hide items with data when result is 0.0</li>
++	  <li>bugfix: #2024389 filter Status always show section should always be visible</li>
++	  <li>bugfix: #2019312 status column included in export detail txn from report break re-import</li>
++	</ul>
++      </description>
++    </release>
 +    <release date="2023-06-21" version="5.6.5">
 +      <description>
 +	<p>This is a bugfix release:</p>
