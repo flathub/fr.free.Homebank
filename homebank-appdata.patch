@@ -1,6 +1,6 @@
---- homebank-5.6.5/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2023-08-06 23:00:34.704576009 +0200
-@@ -1,29 +1,67 @@
+--- homebank-5.7/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2023-09-06 17:25:57.746523806 +0200
+@@ -1,29 +1,86 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -51,6 +51,25 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2023-09-06" version="5.7">
++      <description>
++	<p>This is a new major release, with new features and bugfixes:</p>
++	<ul>
++	  <li>Cash flow forecast</li>
++	  <li>Budget report over time (month)</li>
++	  <li>Chart drill down for categories</li>
++	  <li>Home chart to show spending by month</li>
++	  <li>Home chart to show account balance total/time</li>
++	  <li>Budget report includes Category &amp; Subcategory</li>
++	  <li>Added balance mode for statistics total report</li>
++	  <li>Added fulfilled column for budget report</li>
++	  <li>And many more...</li>
++	</ul>
++        <p>
++          See the <a href="http://homebank.free.fr/ChangeLog">ChangeLog</a> for more details and read the documentation for additional info.
++      </p>
++      </description>
++    </release>
 +    <release date="2023-07-04" version="5.6.6">
 +      <description>
 +	<p>This is a bugfix release:</p>
