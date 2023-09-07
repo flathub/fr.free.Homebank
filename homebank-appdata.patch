@@ -1,6 +1,6 @@
 --- homebank-5.7/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2023-09-06 17:25:57.746523806 +0200
-@@ -1,29 +1,86 @@
++++ homebank/data/homebank.appdata.xml.in	2023-09-07 08:21:56.464572832 +0200
+@@ -1,29 +1,85 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -65,10 +65,9 @@
 +	  <li>Added fulfilled column for budget report</li>
 +	  <li>And many more...</li>
 +	</ul>
-+        <p>
-+          See the <a href="http://homebank.free.fr/ChangeLog">ChangeLog</a> for more details and read the documentation for additional info.
-+      </p>
++        <p>See the ChangeLog for more details and read the documentation for additional info.</p>
 +      </description>
++      <url>http://homebank.free.fr/ChangeLog</url>
 +    </release>
 +    <release date="2023-07-04" version="5.6.6">
 +      <description>
