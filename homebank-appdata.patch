@@ -1,6 +1,6 @@
---- homebank-5.7/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2023-09-07 08:21:56.464572832 +0200
-@@ -1,29 +1,85 @@
+--- homebank-5.7.1/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2023-10-09 07:44:47.427909415 +0200
+@@ -1,29 +1,114 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -51,6 +51,35 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2023-10-09" version="5.7.1">
++      <description>
++	<p>This is a bugfix release:</p>
++	<ul>
++	  <li>new: split dialog: add a confirm dialog before delete all split lines</li>
++	  <li>new: dateentry only rely on token and date order detection, glib failover</li>
++	  <li>change: split dialog: add info+tooltip icon next to the amount input</li>
++	  <li>change: split dialog: amount input is named according transaction type</li>
++	  <li>bugfix: dateentry d, dm, md was sometimes wrong</li>
++	  <li>bugfix: dateentry 2 year digits fix with 40/60 windowing</li>
++	  <li>bugfix: #2037597 top 10 Spending Category chart legend labels sometimes ellipsized</li>
++	  <li>bugfix: #2037468 "All Transactions" CSV export no longer includes account</li>
++	  <li>bugfix: #2037132 cannot create assignments from a transaction with empty memo</li>
++	  <li>bugfix: #2036703 budget report shows wrong Spent and Budget totals</li>
++	  <li>bugfix: #2036290 migrate libsoup-2.4 to libsoup-3.0</li>
++	  <li>bugfix: #2036270 no message when split limit is reached</li>
++	  <li>bugfix: #2036228 forecast only limited to time span set in preferences</li>
++	  <li>bugfix: #2036097 budget report date range from/to does not localized month name</li>
++	  <li>bugfix: #2035401 Main panel size not retained; account info concealed on start</li>
++	  <li>bugfix: #2035129 incorrect values in "tooltip" message for forcast view (subcategory)</li>
++	  <li>bugfix: #2034764 statistics Report Total Row not reflecting displayed amounts</li>
++	  <li>bugfix: #2034647 trend time Report Title does not match Interval</li>
++	  <li>bugfix: #2034618	statistics report sometimes crashes with half year interval </li>
++	  <li>wish: #2038601 "Schedule" and "Template" linked togglebuttons are not mutually exclusive (don't act like switchers)</li>
++	  <li>wish: #2034625	statistics Reportsorting by expense or income when using the Time Mode</li>
++	</ul>
++      </description>
++      <url>http://homebank.free.fr/ChangeLog</url>
++    </release>
 +    <release date="2023-09-06" version="5.7">
 +      <description>
 +	<p>This is a new major release, with new features and bugfixes:</p>
