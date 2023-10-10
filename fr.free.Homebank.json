@@ -71,7 +71,6 @@
             }
         ]
     },
-    "shared-modules/libsoup/libsoup-2.4.json",
     "shared-modules/intltool/intltool-0.51.json",
     {
         "name": "homebank",
