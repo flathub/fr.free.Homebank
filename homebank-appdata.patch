@@ -1,6 +1,6 @@
---- homebank-5.7.1/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2023-10-09 07:44:47.427909415 +0200
-@@ -1,29 +1,114 @@
+--- homebank-5.7.2/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2023-11-12 19:41:11.884801409 +0100
+@@ -1,29 +1,135 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -51,6 +51,27 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2023-11-12" version="5.7.2">
++      <description>
++	<p>This is a bugfix release:</p>
++	<ul>
++	  <li>bugfix: crash was possible when no file loaded and change to main chart</li>
++	  <li>bugfix: #2043152	lock icon for transaction sometime disapear due to column resize</li>
++	  <li>bugfix: #2042771	currency don't update due to wrong api url since 5.7</li>
++	  <li>bugfix: #2042770	HomeBank closes after leaving "preferences" menu with no file open.</li>
++	  <li>bugfix: #2042668	remove/sanitize GTK listview quicksearch</li>
++	  <li>bugfix: #2042484	category popoverlist shows subcat income standalone its expense parent</li>
++	  <li>bugfix: #2042463	manage categories add subcategory fail after a search</li>
++	  <li>bugfix: #2042035	assign edit cancel faultly persist the rule search</li>
++	  <li>bugfix: #2040494	App crashes when exporting a report after I delete a category that contained data</li>
++	  <li>bugfix: #2040010	ISO 8601 date format not respected when exporting to clipboard or CSV</li>
++	  <li>bugfix: #2039995	budget by time do not filter txn type exp/inc</li>
++	  <li>bugfix: #2039493	statistics report crash when opened with a too wide date range</li>
++	  <li>wish  : #2042692	count and show number of selected transactions when suppressing them</li>
++	</ul>
++      </description>
++      <url>http://homebank.free.fr/ChangeLog</url>
++    </release>
 +    <release date="2023-10-09" version="5.7.1">
 +      <description>
 +	<p>This is a bugfix release:</p>
