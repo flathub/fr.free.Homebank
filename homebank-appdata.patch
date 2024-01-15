@@ -1,6 +1,6 @@
---- homebank-5.7.2/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2023-11-12 19:41:11.884801409 +0100
-@@ -1,29 +1,135 @@
+--- homebank-5.7.3/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2024-01-15 09:53:22.704453208 +0100
+@@ -1,29 +1,157 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -51,6 +51,28 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2023-12-08" version="5.7.3">
++      <description>
++	<p>This is a bugfix release:</p>
++	<ul>
++	  <li>change: budget report added sign on categories like in manage dialog</li>
++	  <li>change: budget report only display fulfilled for budegt category</li>
++	  <li>bugfix: forecast was sometimes faultly done for excluded/closed account</li>
++	  <li>bugfix: date range 'last 12 months' start was not set to 1st day of -12 months</li>
++	  <li>bugfix: #2045299 'install for me only' end with error message when creating optional desktop shortcut</li>
++	  <li>bugfix: #2043886 portable version could prevent to store recent-file</li>
++	  <li>bugfix: #2043433 chart drill down Category link is not translated</li>
++	  <li>bugfix: #2043385 budget report forced displayed subcategories can have no parent</li>
++	  <li>bugfix: #2043366 budget forced category remains displayed with exp/inc filter</li>
++	  <li>bugfix: #2043223 budget report fulfilled column badly rounded display 99% vs 100%</li>
++	  <li>bugfix: #2042676 accound dialog exclude from any report do not refresh the graph after close</li>
++	  <li>bugfix: #2020181 mate: only french flag for payment icons</li>
++	  <li>wish  : #2042699 chart drill down shows the cat total when drawing subat</li>
++	  <li>wish  : #2042683 assigment rule dialog to be wider and/or size saved</li>
++	</ul>
++      </description>
++      <url>http://homebank.free.fr/ChangeLog</url>
++    </release>
 +    <release date="2023-11-12" version="5.7.2">
 +      <description>
 +	<p>This is a bugfix release:</p>
