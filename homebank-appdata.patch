@@ -1,6 +1,6 @@
 --- homebank-5.7.4/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2024-02-08 07:23:31.195900199 +0100
-@@ -1,29 +1,184 @@
++++ homebank/data/homebank.appdata.xml.in	2024-02-08 07:38:15.703979224 +0100
+@@ -1,29 +1,185 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -9,7 +9,9 @@
    <metadata_license>CC0-1.0</metadata_license>
    <project_license>GPL-2.0+</project_license>
    <name>HomeBank</name>
-   <summary>Free, easy, personal accounting, for everyone</summary>
+-  <summary>Free, easy, personal accounting, for everyone</summary>
++  <summary>Personal accounting for everyone</summary>
++  <developer_name>Maxime Doyen</developer_name>
    <description>
 -    <_p>
 -      HomeBank is a free software (as in "free speech" and also as in "free beer") 
