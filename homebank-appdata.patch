@@ -1,6 +1,6 @@
---- homebank-5.7.3/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2024-01-15 09:53:22.704453208 +0100
-@@ -1,29 +1,157 @@
+--- homebank-5.7.4/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2024-02-08 07:23:31.195900199 +0100
+@@ -1,29 +1,184 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -51,6 +51,33 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2024-02-06" version="5.7.4">
++      <description>
++	<p>This is a bugfix release:</p>
++	<ul>
++	  <li>change: migrating to GTK4 preparation (GtkScrolledWindow)</li>
++	  <li>change: statistic report default type is now Total</li>
++	  <li>wish  : #2037200 add a used feature for tags like for payee/categories</li>
++	  <li>wish  : #2044850 revert 5.7.2 print single account (statement) fit to the page width</li>
++	  <li>wish  : #2051419 management dialogs to shows hidden items by default</li>
++	  <li>bugfix: template deletion was possible despite used into an account</li>
++	  <li>bugfix: dateentry was faultly trigger double parse/eval/update sequence</li>
++	  <li>bugfix: filter for report was faultly show always show items</li>
++	  <li>bugfix: update currency was not counting change to enable save</li>
++	  <li>bugfix: input a mindate > maxdate from the filter was possible with no warning</li>
++	  <li>bugfix: #2051440	export CSV not including memo field from split transactions</li>
++	  <li>bugfix: #2051349	add an existing category/payee/tag from manage dialog do not warn user</li>
++	  <li>bugfix: #2051307	export CSV not including remind status</li>
++	  <li>bugfix: #2050848	skip multiple Scheduled do not refresh as expected</li>
++	  <li>bugfix: #2048236	transfer are not included in forecast, balance mode</li>
++	  <li>bugfix: #2047647	cross-currency transfer do not propose target transaction</li>
++	  <li>bugfix: #2046157	info icon for transfers is not displayed</li>
++	  <li>bugfix: #2046032	date filter shows wrong date</li>
++	  <li>bugfix: #2043523	exclude zero-sum categories from Top Spending</li>
++	</ul>
++      </description>
++      <url>http://homebank.free.fr/ChangeLog</url>
++    </release>
 +    <release date="2023-12-08" version="5.7.3">
 +      <description>
 +	<p>This is a bugfix release:</p>
