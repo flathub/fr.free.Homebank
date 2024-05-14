@@ -1,5 +1,5 @@
 --- homebank-5.8/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2024-05-14 11:50:30.182245477 +0200
++++ homebank/data/homebank.appdata.xml.in	2024-05-14 14:17:55.871878310 +0200
 @@ -1,29 +1,244 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
@@ -82,7 +82,7 @@
 +	  <li>wish  : #2044601 preference to always prompt for a target txn when adding xfer</li>
 +	  <li>wish  : #2042674 idiot-proof preference for "Sync transfert Status"</li>
 +	  <li>wish  : #2038753 copy transaction to clipboard to paste external apps</li>
-+	  <li>wish  : #2037039 amend "Spending By Month" to have income option & both income/expense by month</li>
++	  <li>wish  : #2037039 amend "Spending By Month" to have income option &amp; both income/expense by month</li>
 +	  <li>wish  : #2023696 budget report to show not-budgeted amount</li>
 +	  <li>wish  : #2017625 transfer txn widget From vs To field ordering to be static</li>
 +	  <li>wish  : #2017437 reorderable columns in the Scheduled/Template window</li>
