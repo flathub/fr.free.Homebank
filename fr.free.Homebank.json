@@ -77,8 +77,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "http://homebank.free.fr/public/sources/homebank-5.7.4.tar.gz",
-                "sha256": "42ce7146c875ea0ca3c93391b6a9bf4714db4621c63f4a094dcc6f8985bb54e4"
+                "url": "http://homebank.free.fr/public/sources/homebank-5.8.tar.gz",
+                "sha256": "b608dccf8ce79f0fbee650682435ad1caa5114435f334c41a728467fc9c0002c"
             },
             {
                 "type": "patch",

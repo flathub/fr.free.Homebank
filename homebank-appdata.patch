@@ -1,6 +1,6 @@
---- homebank-5.7.4/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2024-02-08 07:38:15.703979224 +0100
-@@ -1,29 +1,185 @@
+--- homebank-5.8/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2024-05-14 11:50:30.182245477 +0200
+@@ -1,29 +1,244 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -53,6 +53,65 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2025-05-14" version="5.8">
++      <description>
++	<p>This is a major release with new features, and bugfixes...</p>
++	<ul>
++	  <li>new   : statistics report: category sign is now also displayed</li>
++	  <li>new   : added a tooltip to display active filter in all report windows</li>
++	  <li>change: migrating to GTK4 preparation (GdkEvent struct)</li>
++	  <li>change: migrating to GTK4 preparation (GtkApplication, GtkApplicationWindow)</li>
++	  <li>change: migrating to GTK4 preparation (GtkMenu*, GtkToolbar) for ledger</li>
++	  <li>change: 'select action for target xfer' creation cancel now get back to txn dialog</li>
++	  <li>change: reports: moved the collapse/expand buttons to bottom of the list</li>
++	  <li>change: example file addition: split, tags, loan, flags, life-energy</li>
++	  <li>change: the Info field is named as it should have originally: Number</li>
++	  <li>change: added missing enums for most action of combobox</li>
++	  <li>wish  : #2064754 yours account should always display a tooltip for consistency</li>
++	  <li>wish  : #2064520 enable ledger txn reconciled > cleared, like for none</li>
++	  <li>wish  : #2063416 index for importing csv files</li>
++	  <li>wish  : #2060588 widths of memo -v- amount field in split transactions</li>
++	  <li>wish  : #2059733 preference to use the template list when edit a transaction</li>
++	  <li>wish  : #2058696 enrich account transactions list window title with account number and institution name</li>
++	  <li>wish  : #2058566 budget Report - detail pane size not adjustable</li>
++	  <li>wish  : #2056654 add thousand separator when print 'your accounts'</li>
++	  <li>wish  : #2055533 Payment column in auto-assignment window</li>
++	  <li>wish  : #2054906 "Cancel" button on prompt for a target txn when adding xfer should not create a transaction</li>
++	  <li>wish  : #2051758 add a help tip when input amount range in filter</li>
++	  <li>wish  : #2045514 Balance report to exclude transfers when multiple selected accounts</li>
++	  <li>wish  : #2044601 preference to always prompt for a target txn when adding xfer</li>
++	  <li>wish  : #2042674 idiot-proof preference for "Sync transfert Status"</li>
++	  <li>wish  : #2038753 copy transaction to clipboard to paste external apps</li>
++	  <li>wish  : #2037039 amend "Spending By Month" to have income option & both income/expense by month</li>
++	  <li>wish  : #2023696 budget report to show not-budgeted amount</li>
++	  <li>wish  : #2017625 transfer txn widget From vs To field ordering to be static</li>
++	  <li>wish  : #2017437 reorderable columns in the Scheduled/Template window</li>
++	  <li>wish  : #2017436 scheduled/template window show internal transfers "To" account in Payee column</li>
++	  <li>wish  : #2016317 columns for status icon and payment icon in scheduled/template</li>
++	  <li>wish  : #2002177 automatic GTK dark theme switching for Linux (using the Freedesktop standard)</li>
++	  <li>wish  : #1910935 statistic report by accounts groups</li>
++	  <li>wish  : #1909255 report exclude income in transfers</li>
++	  <li>wish  : #1867979 internal transfer edit dialog to show/change date in both accounts</li>
++	  <li>wish  : #1867498 add "Life Energy" attribute</li>
++	  <li>wish  : #1817274 add more paymode + user order position + disable</li>
++	  <li>wish  : #1674016 assignment to assign tags</li>
++	  <li>wish  : #1600356 add colour flag/group to transaction</li>
++	  <li>wish  : #613894 favorite saved filter list to use in report and ledger show all</li>
++	  <li>bugfix: multiple txn edit tag was not displaying the tag list</li>
++	  <li>bugfix: time report quick filter item list were displaying too much columns</li>
++	  <li>bugfix: #2064839 post of today due date txn do not happen</li>
++	  <li>bugfix: #2063145 top spending pie chart subcategory is not sorted descending</li>
++	  <li>bugfix: #2063135 statistics details export menu items sensitivity update problem</li>
++	  <li>bugfix: #2061979 cross-currency transfer still do not propose target transaction</li>
++	  <li>bugfix: #2060159 window width and height size is reset to an invalid small size after demaximizing on startup</li>
++	  <li>bugfix: #2059709 filter exclusion of payment=none hide transfer</li>
++	  <li>bugfix: #2055101 windows: recent file Clear keep deleted/renamed files</li>
++	  <li>bugfix: #2052678 home time chart spending by month should show net expense</li>
++	  <li>bugfix: #2052304 budget should warn/fix when we input positive number for expense</li>
++	</ul>
++      </description>
++      <url>http://homebank.free.fr/ChangeLog</url>
++    </release>
 +    <release date="2024-02-06" version="5.7.4">
 +      <description>
 +	<p>This is a bugfix release:</p>
