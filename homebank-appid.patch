@@ -1,0 +1,11 @@
+--- homebank-5.8/src/homebank.c	2024-05-01 11:31:43.000000000 +0200
++++ homebank/src/homebank.c	2024-05-15 08:14:42.024173049 +0200
+@@ -1321,7 +1321,7 @@ int exit_code = EXIT_FAILURE;
+ 
+ 		homebank_init_i18n();
+ 
+-		app = gtk_application_new ("fr.free.mdoyen.HomeBank", G_APPLICATION_HANDLES_COMMAND_LINE);
++		app = gtk_application_new ("fr.free.Homebank", G_APPLICATION_HANDLES_COMMAND_LINE);
+ 		//app = gtk_application_new ("fr.free.mdoyen.HomeBank", G_APPLICATION_FLAGS_NONE);
+ 
+ 		g_application_add_main_option_entries (G_APPLICATION (app), option_entries);

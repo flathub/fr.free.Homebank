@@ -83,6 +83,10 @@
             {
                 "type": "patch",
                 "path": "homebank-appdata.patch"
+            },
+            {
+                "type": "patch",
+                "path": "homebank-appid.patch"
             }
         ],
         "post-install": [
