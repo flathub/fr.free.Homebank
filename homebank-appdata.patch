@@ -1,6 +1,6 @@
---- homebank-5.8/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2024-05-14 14:50:02.631441659 +0200
-@@ -1,29 +1,245 @@
+--- homebank-5.8.1/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2024-05-26 09:48:39.391093081 +0200
+@@ -1,29 +1,265 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -54,6 +54,26 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2025-05-26" version="5.8.1">
++      <description>
++	<p>This is a maintenance release with bugfix...</p>
++	<ul>
++	  <li>bugfix: #2066161 "Raw amount" check menu is not saved</li>
++	  <li>bugfix: #2065955 scheduled transactions not automatically posted before weekend</li>
++	  <li>bugfix: #2065929 saved filter does not show txn with remind status</li>
++	  <li>bugfix: #2065781 balance not updated after edit a transaction in ledger</li>
++	  <li>bugfix: #2065770 display bug of next date column in template dialog</li>
++	  <li>bugfix: #2065758 incorrect window title for credit card type</li>
++	  <li>bugfix: #2065740 scheduled transactions are broken for "Next Payout"</li>
++	  <li>bugfix: #2065628 windows: crash after open recent file no more existing</li>
++	  <li>bugfix: #2065625 save button stay disabled after edit a transaction</li>
++	  <li>bugfix: #2065592 changing status to none from txn dialog fail</li>
++	  <li>bugfix: #2065551 embedded help file misses some new files and images</li>
++	  <li>bugfix: #2065531 statistics report with tags filter show extra tags</li>
++	</ul>
++      </description>
++      <url>http://homebank.free.fr/ChangeLog</url>
++    </release>
 +    <release date="2025-05-14" version="5.8">
 +      <description>
 +	<p>This is a major release with new features, and bugfixes...</p>
