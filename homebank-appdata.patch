@@ -1,5 +1,5 @@
 --- homebank-5.8.1/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2024-05-27 17:46:31.020179518 +0200
++++ homebank/data/homebank.appdata.xml.in	2024-05-27 20:32:41.178213201 +0200
 @@ -1,29 +1,265 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
@@ -72,7 +72,7 @@
 +	  <li>bugfix: #2065531 statistics report with tags filter show extra tags</li>
 +	</ul>
 +      </description>
-+      <url>http://homebank.free.fr/ChangeLog</url>
++      <url>https://www.gethomebank.org/ChangeLog</url>
 +    </release>
 +    <release date="2024-05-14" version="5.8">
 +      <description>
@@ -131,7 +131,7 @@
 +	  <li>bugfix: #2052304 budget should warn/fix when we input positive number for expense</li>
 +	</ul>
 +      </description>
-+      <url>http://homebank.free.fr/ChangeLog</url>
++      <url>https://www.gethomebank.org/ChangeLog</url>
 +    </release>
 +    <release date="2024-02-06" version="5.7.4">
 +      <description>
