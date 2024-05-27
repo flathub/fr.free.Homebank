@@ -1,5 +1,5 @@
 --- homebank-5.8.1/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2024-05-26 09:48:39.391093081 +0200
++++ homebank/data/homebank.appdata.xml.in	2024-05-27 17:46:31.020179518 +0200
 @@ -1,29 +1,265 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
@@ -54,7 +54,7 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
-+    <release date="2025-05-26" version="5.8.1">
++    <release date="2024-05-26" version="5.8.1">
 +      <description>
 +	<p>This is a maintenance release with bugfix...</p>
 +	<ul>
@@ -74,7 +74,7 @@
 +      </description>
 +      <url>http://homebank.free.fr/ChangeLog</url>
 +    </release>
-+    <release date="2025-05-14" version="5.8">
++    <release date="2024-05-14" version="5.8">
 +      <description>
 +	<p>This is a major release with new features, and bugfixes...</p>
 +	<ul>
