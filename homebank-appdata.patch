@@ -1,6 +1,6 @@
---- homebank-5.8.1/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2024-05-27 17:46:31.020179518 +0200
-@@ -1,29 +1,265 @@
+--- homebank-5.8.2/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2024-08-10 06:54:30.774498300 +0200
+@@ -1,29 +1,284 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -54,6 +54,25 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2024-08-10" version="5.8.2">
++      <description>
++	<p>This is a maintenance release.</p>
++	<ul>
++	  <li>bugfix: #2073805 switching saved filter with same date range doesn't refresh</li>
++	  <li>bugfix: #2073233 vehicle cost distance/volume is rounded to distance and always xx,0</li>
++	  <li>bugfix: #2071648 possibility for positive or negative budget values gone</li>
++	  <li>bugfix: #2069152 windows: CFA protected folder save fail with no dialog warning</li>
++	  <li>bugfix: #2068825 budget report type filter do not work anymore</li>
++	  <li>bugfix: #2068664 filter text option only work when both memo and number are filled</li>
++	  <li>bugfix: #2068634 copy/paste a txn do not enable save</li>
++	  <li>bugfix: #2067855 transfer from one account to another does not sync statuse even with "Sync transfer Status" checked</li>
++	  <li>bugfix: #2067440 payment settings not retained</li>
++	  <li>bugfix: #2066539 budget Report - unbudgeted includes transactions for subcats where main cat has a budget</li>
++	  <li>bugfix: #2062021 transaction date may change if system shortdate is not dd/MM/yy</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
 +    <release date="2024-05-26" version="5.8.1">
 +      <description>
 +	<p>This is a maintenance release with bugfix...</p>
@@ -72,7 +91,7 @@
 +	  <li>bugfix: #2065531 statistics report with tags filter show extra tags</li>
 +	</ul>
 +      </description>
-+      <url>http://homebank.free.fr/ChangeLog</url>
++      <url>https://www.gethomebank.org/ChangeLog</url>
 +    </release>
 +    <release date="2024-05-14" version="5.8">
 +      <description>
@@ -131,7 +150,7 @@
 +	  <li>bugfix: #2052304 budget should warn/fix when we input positive number for expense</li>
 +	</ul>
 +      </description>
-+      <url>http://homebank.free.fr/ChangeLog</url>
++      <url>https://www.gethomebank.org/ChangeLog</url>
 +    </release>
 +    <release date="2024-02-06" version="5.7.4">
 +      <description>
