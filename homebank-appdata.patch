@@ -1,6 +1,6 @@
---- homebank-5.8.2/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2024-08-10 06:54:30.774498300 +0200
-@@ -1,29 +1,284 @@
+--- homebank-5.8.3/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2024-09-09 11:33:42.623523221 +0200
+@@ -1,29 +1,298 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -54,6 +54,20 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2024-09-09" version="5.8.3">
++      <description>
++	<p>This is a maintenance release.</p>
++	<ul>
++	  <li>bugfix: #2066535 cannot see a 1 sub-category in Stats Rept donut view</li>
++	  <li>bugfix: #2076458 saved filter date ranges going wrong</li>
++	  <li>bugfix: #2076474 dark mode applied live, but not on app startup or when exiting preferences dialog</li>
++	  <li>bugfix: #2077180 budget report category do not sum their subcat budget in 5.8.2</li>
++	  <li>bugfix: #2078281 csv export crash</li>
++	  <li>bugfix: #2078679 category appeard Empty and crashes Homebank on Linux</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
 +    <release date="2024-08-10" version="5.8.2">
 +      <description>
 +	<p>This is a maintenance release.</p>
