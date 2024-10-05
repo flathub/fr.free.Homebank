@@ -1,6 +1,6 @@
---- homebank-5.8.4/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2024-10-05 08:27:49.318995631 +0200
-@@ -1,29 +1,315 @@
+--- homebank-5.8.5/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2024-10-05 22:04:04.003850475 +0200
+@@ -1,29 +1,324 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -54,6 +54,15 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2024-10-05" version="5.8.5">
++      <description>
++	<p>This is a maintenance release.</p>
++	<ul>
++	  <li>bugfix: date button shortened in ledger book</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
 +    <release date="2024-10-05" version="5.8.4">
 +      <description>
 +	<p>This is a maintenance release.</p>
