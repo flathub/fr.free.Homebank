@@ -1,6 +1,6 @@
---- homebank-5.8.3/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2024-09-09 11:33:42.623523221 +0200
-@@ -1,29 +1,298 @@
+--- homebank-5.8.4/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2024-10-05 08:27:49.318995631 +0200
+@@ -1,29 +1,315 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -54,6 +54,23 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2024-10-05" version="5.8.4">
++      <description>
++	<p>This is a maintenance release.</p>
++	<ul>
++	  <li>bugfix: prevent some problems with xfer and both legder window opened</li>
++	  <li>bugfix: #2083124 account rename doesn't allow case correction</li>
++	  <li>bugfix: #2081574 windows: budget report date fields not showing in their entirety</li>
++	  <li>bugfix: #2081379 planned split operations are not modified after a category merge</li>
++	  <li>bugfix: #2080864 HomeBank CLI --version or -V no longer works in linux</li>
++	  <li>bugfix: #2080756 balance change from ledger toolbar not updated for xfer target</li>
++	  <li>bugfix: #2080032 your accounts print/export hidden columns</li>
++	  <li>bugfix: #2079884 ledger window snap half left oversize</li>
++	  <li>bugfix: #2036404 grouped budget categories not showing total amount</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
 +    <release date="2024-09-09" version="5.8.3">
 +      <description>
 +	<p>This is a maintenance release.</p>
