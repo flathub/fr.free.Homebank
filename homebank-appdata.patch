@@ -1,6 +1,6 @@
---- homebank-5.8.5/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2024-10-05 22:04:04.003850475 +0200
-@@ -1,29 +1,324 @@
+--- homebank-5.8.6/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2024-12-28 08:06:48.704105139 +0100
+@@ -1,29 +1,346 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -54,6 +54,28 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2024-12-28" version="5.8.6">
++      <description>
++	<p>This is a maintenance release.</p>
++	<ul>
++	  <li>bugfix: fix crash when print your accounts</li>
++	  <li>bugfix: ledger similar marked txn were persisted after close</li>
++	  <li>bugfix: ledger similair marked txn now display their group</li>
++	  <li>bugfix: repbalance first column title was not set to interval</li>
++	  <li>bugfix: #2091004 statistics time report totals line with exact 0 is not displayed</li>
++	  <li>bugfix: #2090668 close after start wizard not not let choose filename to save</li>
++	  <li>bugfix: #2090183 the export CSV functionality does not take into account the frac digits property of the currency</li>
++	  <li>bugfix: #2089407 trendtime/balance report clear filter don't clear properly</li>
++	  <li>bugfix: #2087750 save indicator (*) not showing after editing multiple transfert</li>
++	  <li>bugfix: #2085376 future/remind main window bottom list column not updated</li>
++	  <li>bugfix: #2083127 inherit operations should not preserve colour flags</li>
++	  <li>bugfix: #2079801 alert about budget usage when move/delete a category</li>
++	  <li>bugfix: #2060159 window width and height size is reset to a small size after demaximizing on startup</li>
++	  <li>wish  : #2086475 add menu keyboard shortcut to import files</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
 +    <release date="2024-10-05" version="5.8.5">
 +      <description>
 +	<p>This is a maintenance release.</p>
