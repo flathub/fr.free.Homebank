@@ -77,8 +77,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://www.gethomebank.org/public/sources/homebank-5.8.6.tar.gz",
-                "sha256": "af138a7bf2cd795c1338c5e3d9e99909ee6b33d920c618dc35c6477fd826ddf5"
+                "url": "https://www.gethomebank.org/public/sources/homebank-5.9.tar.gz",
+                "sha256": "cb92a36bb9e196f9d3e1e81f47916f97f90f1c20e765fd68a115cc4401fe31e6"
             },
             {
                 "type": "patch",
