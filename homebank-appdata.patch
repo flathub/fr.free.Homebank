@@ -1,6 +1,6 @@
---- homebank-5.8.6/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2024-12-28 08:06:48.704105139 +0100
-@@ -1,29 +1,346 @@
+--- homebank-5.9/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2025-04-11 15:59:43.369945446 +0200
+@@ -1,29 +1,403 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -54,6 +54,63 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2025-04-10" version="5.9">
++      <description>
++	<p>This is a major release with new features, and bugfix...</p>
++	<ul>
++	  <li>new   : new svg default iconset</li>
++	  <li>new   : new symbolic svg iconset</li>
++	  <li>new   : budget tabview: added import/export menu</li>
++	  <li>new   : budget tabview: added clearall menu</li>
++	  <li>new   : reinforced error handling when loading a .xhb file</li>
++	  <li>new   : preference: amount color can be herited from chart palette</li>
++	  <li>new   : added a ledger tool to mark category sign with amount don't match</li>
++	  <li>change: xhb data file format (v1.6)</li>
++	  <li>change: internal data/display flag separation</li>
++	  <li>change: icon name rework</li>
++	  <li>change: simplified ledger icon status column (reconciled merged with lock)</li>
++	  <li>change: manage account icons was moved to a left column for consistency</li>
++	  <li>change: the preference pages have been organized on 2 levels</li>
++	  <li>change: the last used preferences page is remembered during the session</li>
++	  <li>change: relayout of edit assignment dialog</li>
++	  <li>wish  : #2101100 budget report option to exclude subcat from unbudgeted line</li>
++	  <li>wish  : #2089475 inherit while managing scheduled transactions</li>
++	  <li>wish  : #2083175 balance report to propose an option to include/exclude transfer</li>
++	  <li>wish  : #2079857 budget report option to restrict &lt;= today</li>
++	  <li>wish  : #2073032 statistic time report detail to focus on row or cell (specific month)</li>
++	  <li>wish  : #2070444 possibility to print/export scheduled transactions</li>
++	  <li>wish  : #2068845 duplicate a transaction split line</li>
++	  <li>wish  : #2068663 include split transaction memos in completion</li>
++	  <li>wish  : #2067399 Schedule Transaction for the nth weekday of a Month</li>
++	  <li>wish  : #2066993 scheduled payment on last day of month</li>
++	  <li>wish  : #2066110 refactor EUR feature for future euro adopters</li>
++	  <li>wish  : #2065633 option to keep internal transfer date sync</li>
++	  <li>wish  : #2065355 making "remind" status independent of "reconciled" status</li>
++	  <li>wish  : #2064958 "Period to date" date range</li>
++	  <li>wish  : #2061227 a feature to prevent add/import prior last reconciled date</li>
++	  <li>wish  : #2052314 option of background color for future transactions</li>
++	  <li>wish  : #2042038 assignment more visible search option (case and regex)</li>
++	  <li>wish  : #2042037 manage assignment list search option icons (case and regex)</li>
++	  <li>wish  : #1938412 inline calculation in txn/split amount field</li>
++	  <li>wish  : #1875100 option to import in pending status and approve later</li>
++	  <li>wish  : #1756407 remove -|+ of amount widget + empty if focus</li>
++	  <li>bugfix: post scheduled from main window do not enable save</li>
++	  <li>bugfix: #2106307 broken link in the Preferences Dialog </li>
++	  <li>bugfix: #2106027 delete then show usage make a crash in tags manage</li>
++	  <li>bugfix: #2105387 no changes in manage accounts faulty count changes</li>
++	  <li>bugfix: #2104162 Wrong balance values in Balance Report after changing the interval</li>
++	  <li>bugfix: #2102726 Unexpected dates from 'Next payout' automatic posting</li>
++	  <li>bugfix: #2101050 transaction sign change with a transfer between accounts</li>
++	  <li>bugfix: #2100875 payment filter revert to mobile phone after reopen saved file</li>
++	  <li>bugfix: #2100731 budget report time list print result label are incorrect</li>
++	  <li>bugfix: #2100489 windows: date problem if you change the short format in regional settings</li>
++	  <li>bugfix: #2099918 scheduled with week-end before/after gap post date is incorrect</li>
++	  <li>bugfix: #2099843 budget chart wrong color when spend = budget</li>
++	  <li>bugfix: #2098359 portable version truncate recently-used.xbel</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
 +    <release date="2024-12-28" version="5.8.6">
 +      <description>
 +	<p>This is a maintenance release.</p>
