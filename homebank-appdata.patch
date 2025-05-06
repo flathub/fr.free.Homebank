@@ -1,6 +1,6 @@
---- homebank-5.9/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2025-04-11 15:59:43.369945446 +0200
-@@ -1,29 +1,403 @@
+--- homebank-5.9.1/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2025-05-06 17:03:31.589754908 +0200
+@@ -1,29 +1,419 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -54,6 +54,22 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2025-05-06" version="5.9.1">
++      <description>
++	<p>This is a bugfix release:</p>
++	<ul>
++	  <li>bugfix: some button icons where too small</li>
++	  <li>bugfix: pending transaction account change was keeping warning on old acc</li>
++	  <li>bugfix: #2109861 edit an invalid transfer make the app crash</li>
++	  <li>bugfix: #2109854 ledger quick unapproved filter do not show all transaction</li>
++	  <li>bugfix: #2109358 paste text in amount with comma separator change it as dot</li>
++	  <li>bugfix: #2108847 untranslated periodicity label into scheduling popover</li>
++	  <li>bugfix: #2107704 filter presets range wrongly use financial year range</li>
++	  <li>bugfix: #2107649 ledger amounts gets wrong with unapproved and approved transaction</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
 +    <release date="2025-04-10" version="5.9">
 +      <description>
 +	<p>This is a major release with new features, and bugfix...</p>
