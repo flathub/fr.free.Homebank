@@ -1,6 +1,6 @@
---- homebank-5.9.1/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2025-05-06 17:03:31.589754908 +0200
-@@ -1,29 +1,419 @@
+--- homebank-5.9.2/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2025-06-04 22:34:45.201056623 +0200
+@@ -1,29 +1,430 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank.desktop</id>
@@ -54,6 +54,17 @@
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2025-06-04" version="5.9.2">
++      <description>
++	<p>This is a bugfix release:</p>
++	<ul>
++	  <li>bugfix: #2112135 scheduled with limitation don't stop and goes erroneous data</li>
++	  <li>bugfix: #2111663 variable scope issue in ui-assign.c</li>
++	  <li>bugfix: #2111359 remind status not synced in transfers</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
 +    <release date="2025-05-06" version="5.9.1">
 +      <description>
 +	<p>This is a bugfix release:</p>
