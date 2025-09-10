@@ -1,18 +1,18 @@
---- homebank-5.9.4/data/homebank.appdata.xml.in	2022-09-14 22:47:38.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2025-08-09 20:39:14.145152466 +0200
-@@ -1,29 +1,439 @@
+--- homebank-5.9.5/data/homebank.appdata.xml.in	2025-08-29 09:14:52.000000000 +0200
++++ homebank/data/homebank.appdata.xml.in	2025-09-10 09:58:50.892815720 +0200
+@@ -1,30 +1,455 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
--  <id>fr.free.mdoyen.HomeBank.desktop</id>
+-  <id>fr.free.mdoyen.HomeBank</id>
 +<component type="desktop-application">
 +  <id>fr.free.Homebank</id>
-   <metadata_license>CC0-1.0</metadata_license>
-   <project_license>GPL-2.0+</project_license>
    <name>HomeBank</name>
 -  <summary>Free, easy, personal accounting, for everyone</summary>
 +  <summary>Personal accounting for everyone</summary>
+   <launchable type="desktop-id">homebank.desktop</launchable>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-2.0+</project_license>
 +  <developer_name>Maxime Doyen</developer_name>
-+  <launchable type="desktop-id">homebank.desktop</launchable>
    <description>
 -    <_p>
 -      HomeBank is a free software (as in "free speech" and also as in "free beer") 
@@ -38,7 +38,7 @@
    </description>
    <screenshots>
      <screenshot type="default">
--      <image width="624" type="default" height="351">http://homebank.free.fr/img/homebank-appdata.png</image>
+-      <image width="624" type="default" height="351">https://www.gethomebank.org/img/homebank-appdata.png</image>
 +      <image>https://raw.githubusercontent.com/flathub/fr.free.Homebank/master/homebank.png</image>
 +    </screenshot>
 +    <screenshot>
@@ -48,12 +48,28 @@
 +      <image>https://raw.githubusercontent.com/flathub/fr.free.Homebank/master/homebank-vehicule-cost-report.png</image>
      </screenshot>
    </screenshots>
-   <url type="homepage">http://homebank.free.fr</url>
+   <url type="homepage">https://www.gethomebank.org</url>
 +  <url type="bugtracker">https://launchpad.net/homebank/+filebug</url>
-+  <url type="donation">http://homebank.free.fr/fr/donate.php</url>
++  <url type="donation">https://www.gethomebank.org/en/donate.php</url>
    <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2025-09-10" version="5.9.5">
++      <description>
++	<p>This is a bugfix release:</p>
++	<ul>
++	  <li>bugfix: #2121689 edit a transfer scheduled display a sign warning</li>
++	  <li>bugfix: #2121405 Budget report by Time faulty ignore subcategory with no budget as spending</li>
++	  <li>bugfix: #2121309 manage account position of a new account is wrong when you delete an account</li>
++	  <li>bugfix: #2121204 invalid backup folder path cause a console warning and backup to silently fail</li>
++	  <li>bugfix: #2120855 system language preference is not persisted well after first run</li>
++	  <li>bugfix: #2119051 added txn do not display in ledger when date range is all date</li>
++	  <li>bugfix: #2118815 account excluded can't be filtered</li>
++	  <li>bugfix: #2117343 'Gear' icon Missing on Ubuntu 25.04 and later</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
 +    <release date="2025-07-10" version="5.9.4">
 +      <description>
 +	<p>This is a bugfix release:</p>
@@ -420,7 +436,7 @@
 +	  <li>Added fulfilled column for budget report</li>
 +	  <li>And many more...</li>
 +	</ul>
-+        <p>See the ChangeLog for more details and read the documentation for additional info.</p>
++	<p>See the ChangeLog for more details and read the documentation for additional info.</p>
 +      </description>
 +      <url>http://homebank.free.fr/ChangeLog</url>
 +    </release>
