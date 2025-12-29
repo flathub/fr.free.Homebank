@@ -1,6 +1,6 @@
---- homebank-5.9.5/data/homebank.appdata.xml.in	2025-08-29 09:14:52.000000000 +0200
-+++ homebank/data/homebank.appdata.xml.in	2025-09-10 09:58:50.892815720 +0200
-@@ -1,30 +1,455 @@
+--- homebank-5.9.7/data/homebank.appdata.xml.in	2025-12-07 09:51:48.000000000 +0100
++++ homebank/data/homebank.appdata.xml.in	2025-12-29 23:10:11.653917588 +0100
+@@ -1,65 +1,485 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank</id>
@@ -36,6 +36,43 @@
 -    </_p>
 +    </p>
    </description>
+-  <categories>
+-    <category>Office</category>
+-    <category>Finance</category>
+-  </categories>
+-  <keywords>
+-    <keyword>money</keyword>
+-    <keyword>currency</keyword>
+-    <keyword>business</keyword>
+-    <keyword>finance</keyword>
+-    <keyword>investment</keyword>
+-    <keyword>vehicle</keyword>
+-    <keyword>cost</keyword>
+-    <keyword>budget</keyword>
+-    <keyword>account</keyword>
+-    <keyword>bank</keyword>
+-    <keyword>statement</keyword>
+-    <keyword>transaction</keyword>
+-    <keyword>income</keyword>
+-    <keyword>revenue</keyword>
+-    <keyword>expense</keyword>
+-    <keyword>spending</keyword>
+-    <keyword>bills</keyword>
+-    <keyword>quicken</keyword>
+-    <keyword>ynab</keyword>
+-    <keyword>ofx</keyword>
+-    <keyword>qfx</keyword>
+-    <keyword>qif</keyword>
+-    <keyword>csv</keyword>
+-    <keyword>investing</keyword>
+-    <keyword>budgeting</keyword>
+-    <keyword>accounting</keyword>
+-    <keyword>banking</keyword>
+-    <keyword>chequing</keyword>
+-    <keyword>saving</keyword>
+-  </keywords>
+-  <url type="homepage">https://www.gethomebank.org</url>
+-  <update_contact>homebank@free.fr</update_contact>
    <screenshots>
      <screenshot type="default">
 -      <image width="624" type="default" height="351">https://www.gethomebank.org/img/homebank-appdata.png</image>
@@ -48,12 +85,42 @@
 +      <image>https://raw.githubusercontent.com/flathub/fr.free.Homebank/master/homebank-vehicule-cost-report.png</image>
      </screenshot>
    </screenshots>
-   <url type="homepage">https://www.gethomebank.org</url>
++  <url type="homepage">https://www.gethomebank.org</url>
 +  <url type="bugtracker">https://launchpad.net/homebank/+filebug</url>
 +  <url type="donation">https://www.gethomebank.org/en/donate.php</url>
-   <update_contact>homebank@free.fr</update_contact>
++  <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2025-12-29" version="5.9.7">
++      <description>
++	<p>This is a bugfix release:</p>
++	<ul>
++	  <li>bugfix: #2137082 randomly locks up when apply ledger future date range</li>
++	  <li>bugfix: #2137022 windows: from/to date with 2 digits inputs gives erroneous date</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
++    <release date="2025-12-28" version="5.9.6">
++      <description>
++	<p>This is a bugfix release:</p>
++	<ul>
++	  <li>bugfix: changed the version storage into preference file</li>
++	  <li>bugfix: the currency was not displayed in scheduled export/print</li>
++	  <li>bugfix: the scheduled export/print was wrong if column were hidden</li>
++	  <li>bugfix: the scheduled export separator was incorrect</li>
++	  <li>bugfix: ledger date range faultly change to custom after filter edit</li>
++	  <li>bugfix: #2136853 "Show future [xx] days ahead" adds days to custom date filter</li>
++	  <li>bugfix: #2133905 budget report graph ellipsize and layout problems</li>
++	  <li>bugfix: #2131030 manage account overwidth when template memo is long</li>
++	  <li>bugfix: #2130483 your accounts "Sort by" selection is incorrectly initialized</li>
++	  <li>bugfix: #2127104 ledger quicksearch do not find amount with comma separator</li>
++	  <li>bugfix: #2125300 voiding a transfer only affects one side</li>
++	  <li>wish  : #2132224	add appdata metadata "keywords" to make the app easier to find in app stores</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
 +    <release date="2025-09-10" version="5.9.5">
 +      <description>
 +	<p>This is a bugfix release:</p>
