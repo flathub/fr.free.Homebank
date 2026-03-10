@@ -77,7 +77,7 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://www.gethomebank.org/public/sources/homebank-5.10.0.tar.gz",
+                "url": "https://www.gethomebank.org/public/sources/homebank-5.10.tar.gz",
                 "sha256": "783fd8bb2ebba09713e5d7c183d454f4a4393e828af5763f768b48afabc54386"
             },
             {

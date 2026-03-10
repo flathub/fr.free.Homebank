@@ -1,5 +1,5 @@
 --- homebank-5.10.0/data/homebank.appdata.xml.in	2025-12-07 09:51:48.000000000 +0100
-+++ homebank/data/homebank.appdata.xml.in	2026-03-10 08:02:36.510755683 +0100
++++ homebank/data/homebank.appdata.xml.in	2026-03-10 08:33:55.499016430 +0100
 @@ -1,24 +1,25 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
@@ -66,7 +66,7 @@
 +  <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
-+    <release date="2026-03-10" version="5.9.10">
++    <release date="2026-03-10" version="5.10">
 +      <description>
 +	<p>This is a major release with new features, and bugfix...</p>
 +	<ul>
