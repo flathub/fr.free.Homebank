@@ -1,6 +1,6 @@
---- homebank-5.9.7/data/homebank.appdata.xml.in	2025-12-07 09:51:48.000000000 +0100
-+++ homebank/data/homebank.appdata.xml.in	2025-12-29 23:10:11.653917588 +0100
-@@ -1,65 +1,485 @@
+--- homebank-5.10.0/data/homebank.appdata.xml.in	2025-12-07 09:51:48.000000000 +0100
++++ homebank/data/homebank.appdata.xml.in	2026-03-10 08:33:55.499016430 +0100
+@@ -1,24 +1,25 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank</id>
@@ -36,61 +36,55 @@
 -    </_p>
 +    </p>
    </description>
--  <categories>
--    <category>Office</category>
--    <category>Finance</category>
--  </categories>
--  <keywords>
--    <keyword>money</keyword>
--    <keyword>currency</keyword>
--    <keyword>business</keyword>
--    <keyword>finance</keyword>
--    <keyword>investment</keyword>
--    <keyword>vehicle</keyword>
--    <keyword>cost</keyword>
--    <keyword>budget</keyword>
--    <keyword>account</keyword>
--    <keyword>bank</keyword>
--    <keyword>statement</keyword>
--    <keyword>transaction</keyword>
--    <keyword>income</keyword>
--    <keyword>revenue</keyword>
--    <keyword>expense</keyword>
--    <keyword>spending</keyword>
--    <keyword>bills</keyword>
--    <keyword>quicken</keyword>
--    <keyword>ynab</keyword>
--    <keyword>ofx</keyword>
--    <keyword>qfx</keyword>
--    <keyword>qif</keyword>
--    <keyword>csv</keyword>
--    <keyword>investing</keyword>
--    <keyword>budgeting</keyword>
--    <keyword>accounting</keyword>
--    <keyword>banking</keyword>
--    <keyword>chequing</keyword>
--    <keyword>saving</keyword>
--  </keywords>
+   <categories>
+     <category>Office</category>
+@@ -55,11 +56,488 @@
+     <keyword>chequing</keyword>
+     <keyword>saving</keyword>
+   </keywords>
 -  <url type="homepage">https://www.gethomebank.org</url>
 -  <update_contact>homebank@free.fr</update_contact>
    <screenshots>
      <screenshot type="default">
 -      <image width="624" type="default" height="351">https://www.gethomebank.org/img/homebank-appdata.png</image>
 +      <image>https://raw.githubusercontent.com/flathub/fr.free.Homebank/master/homebank.png</image>
++      <caption>Main window</caption>
 +    </screenshot>
 +    <screenshot>
 +      <image>https://raw.githubusercontent.com/flathub/fr.free.Homebank/master/homebank-balance-report.png</image>
++      <caption>Balance report</caption>
 +    </screenshot>
 +    <screenshot>
 +      <image>https://raw.githubusercontent.com/flathub/fr.free.Homebank/master/homebank-vehicule-cost-report.png</image>
++      <caption>Vehicule cost report</caption>
      </screenshot>
    </screenshots>
 +  <url type="homepage">https://www.gethomebank.org</url>
++  <url type="vcs-browser">https://launchpad.net/homebank/</url>
 +  <url type="bugtracker">https://launchpad.net/homebank/+filebug</url>
 +  <url type="donation">https://www.gethomebank.org/en/donate.php</url>
 +  <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2026-03-10" version="5.10">
++      <description>
++	<p>This is a major release with new features, and bugfix...</p>
++	<ul>
++          <li>view locked transaction in read-only</li>
++          <li>print out date range for reports</li>
++          <li>add a quick filter type "not transfer"</li>
++          <li>add column in manage assigment to see the target: memo/payee</li>
++          <li>add a no flags quickfilter into the ledger</li>
++          <li>"Edit Account…" contextual menu item action in the main views</li>
++          <li>Implement same day transaction sort option(s)</li>
++          <li>pre-fill multi-edit fields with common values</li>
++          <li>be able to set flag for templated/scheduled transactions</li>
++          <li>add a hide closed account in manage dialog</li>
++          <li>and more...</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
 +    <release date="2025-12-29" version="5.9.7">
 +      <description>
 +	<p>This is a bugfix release:</p>
