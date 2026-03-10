@@ -1,6 +1,6 @@
 --- homebank-5.10.0/data/homebank.appdata.xml.in	2025-12-07 09:51:48.000000000 +0100
-+++ homebank/data/homebank.appdata.xml.in	2026-03-10 06:26:02.748079231 +0100
-@@ -1,65 +1,504 @@
++++ homebank/data/homebank.appdata.xml.in	2026-03-10 08:02:36.510755683 +0100
+@@ -1,24 +1,25 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank</id>
@@ -36,56 +36,31 @@
 -    </_p>
 +    </p>
    </description>
--  <categories>
--    <category>Office</category>
--    <category>Finance</category>
--  </categories>
--  <keywords>
--    <keyword>money</keyword>
--    <keyword>currency</keyword>
--    <keyword>business</keyword>
--    <keyword>finance</keyword>
--    <keyword>investment</keyword>
--    <keyword>vehicle</keyword>
--    <keyword>cost</keyword>
--    <keyword>budget</keyword>
--    <keyword>account</keyword>
--    <keyword>bank</keyword>
--    <keyword>statement</keyword>
--    <keyword>transaction</keyword>
--    <keyword>income</keyword>
--    <keyword>revenue</keyword>
--    <keyword>expense</keyword>
--    <keyword>spending</keyword>
--    <keyword>bills</keyword>
--    <keyword>quicken</keyword>
--    <keyword>ynab</keyword>
--    <keyword>ofx</keyword>
--    <keyword>qfx</keyword>
--    <keyword>qif</keyword>
--    <keyword>csv</keyword>
--    <keyword>investing</keyword>
--    <keyword>budgeting</keyword>
--    <keyword>accounting</keyword>
--    <keyword>banking</keyword>
--    <keyword>chequing</keyword>
--    <keyword>saving</keyword>
--  </keywords>
+   <categories>
+     <category>Office</category>
+@@ -55,11 +56,488 @@
+     <keyword>chequing</keyword>
+     <keyword>saving</keyword>
+   </keywords>
 -  <url type="homepage">https://www.gethomebank.org</url>
 -  <update_contact>homebank@free.fr</update_contact>
    <screenshots>
      <screenshot type="default">
 -      <image width="624" type="default" height="351">https://www.gethomebank.org/img/homebank-appdata.png</image>
 +      <image>https://raw.githubusercontent.com/flathub/fr.free.Homebank/master/homebank.png</image>
++      <caption>Main window</caption>
 +    </screenshot>
 +    <screenshot>
 +      <image>https://raw.githubusercontent.com/flathub/fr.free.Homebank/master/homebank-balance-report.png</image>
++      <caption>Balance report</caption>
 +    </screenshot>
 +    <screenshot>
 +      <image>https://raw.githubusercontent.com/flathub/fr.free.Homebank/master/homebank-vehicule-cost-report.png</image>
++      <caption>Vehicule cost report</caption>
      </screenshot>
    </screenshots>
 +  <url type="homepage">https://www.gethomebank.org</url>
++  <url type="vcs-browser">https://launchpad.net/homebank/</url>
 +  <url type="bugtracker">https://launchpad.net/homebank/+filebug</url>
 +  <url type="donation">https://www.gethomebank.org/en/donate.php</url>
 +  <update_contact>homebank@free.fr</update_contact>
