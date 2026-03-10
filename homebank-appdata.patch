@@ -1,6 +1,6 @@
---- homebank-5.9.7/data/homebank.appdata.xml.in	2025-12-07 09:51:48.000000000 +0100
-+++ homebank/data/homebank.appdata.xml.in	2025-12-29 23:10:11.653917588 +0100
-@@ -1,65 +1,485 @@
+--- homebank-5.10.0/data/homebank.appdata.xml.in	2025-12-07 09:51:48.000000000 +0100
++++ homebank/data/homebank.appdata.xml.in	2026-03-10 06:26:02.748079231 +0100
+@@ -1,65 +1,504 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
 -  <id>fr.free.mdoyen.HomeBank</id>
@@ -91,6 +91,25 @@
 +  <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2026-03-10" version="5.9.10">
++      <description>
++	<p>This is a major release with new features, and bugfix...</p>
++	<ul>
++          <li>view locked transaction in read-only</li>
++          <li>print out date range for reports</li>
++          <li>add a quick filter type "not transfer"</li>
++          <li>add column in manage assigment to see the target: memo/payee</li>
++          <li>add a no flags quickfilter into the ledger</li>
++          <li>"Edit Account…" contextual menu item action in the main views</li>
++          <li>Implement same day transaction sort option(s)</li>
++          <li>pre-fill multi-edit fields with common values</li>
++          <li>be able to set flag for templated/scheduled transactions</li>
++          <li>add a hide closed account in manage dialog</li>
++          <li>and more...</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
 +    <release date="2025-12-29" version="5.9.7">
 +      <description>
 +	<p>This is a bugfix release:</p>
