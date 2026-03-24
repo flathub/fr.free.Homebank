@@ -1,7 +1,7 @@
 {
     "id": "fr.free.Homebank",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "homebank",
     "rename-icon": "homebank",
@@ -9,19 +9,28 @@
     "rename-desktop-file": "homebank.desktop",
     "rename-appdata-file": "homebank.appdata.xml",
     "finish-args": [
-            "--share=ipc",
-            "--socket=fallback-x11",
-            "--device=dri",
-            "--socket=wayland",
-            "--filesystem=home",
-            "--share=network"
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--device=dri",
+        "--socket=wayland",
+        "--filesystem=home",
+        "--share=network"
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/share/doc",
+        "/share/info",
+        "/share/man",
+        "*.la",
+        "*.a"
     ],
     "modules": [
     {
         "name": "opensp",
         "rm-configure": true,
         "config-opts": [
-                "--disable-doc-build"
+            "--disable-doc-build"
         ],
         "sources": [
             {
@@ -62,7 +71,7 @@
         "config-opts": [
             "--with-opensp-includes=/app/include/OpenSP",
             "--with-opensp-libs=/lib"
-            ],
+        ],
         "sources": [
             {
                 "type": "archive",
