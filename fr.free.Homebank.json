@@ -86,8 +86,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://www.gethomebank.org/public/sources/homebank-5.10.tar.gz",
-                "sha256": "783fd8bb2ebba09713e5d7c183d454f4a4393e828af5763f768b48afabc54386"
+                "url": "https://www.gethomebank.org/public/sources/homebank-5.10.2.tar.gz",
+                "sha256": "f0beafe07ea22155c8f8e267798d6eb05d6e015d5660b96fb34fdeca5a6bc4c7"
             },
             {
                 "type": "patch",
