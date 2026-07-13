@@ -1,5 +1,5 @@
---- homebank-5.10.0/data/homebank.appdata.xml.in	2025-12-07 09:51:48.000000000 +0100
-+++ homebank/data/homebank.appdata.xml.in	2026-03-10 08:33:55.499016430 +0100
+--- homebank-5.10.2/data/homebank.appdata.xml.in	2025-12-07 09:51:48.000000000 +0100
++++ homebank/data/homebank.appdata.xml.in	2026-07-13 20:43:34.222748473 +0200
 @@ -1,24 +1,25 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
@@ -38,7 +38,7 @@
    </description>
    <categories>
      <category>Office</category>
-@@ -55,11 +56,488 @@
+@@ -55,11 +56,536 @@
      <keyword>chequing</keyword>
      <keyword>saving</keyword>
    </keywords>
@@ -66,6 +66,54 @@
 +  <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2026-06-14" version="5.10.2">
++      <description>
++	<p>This is a maintenance release with bugfix...</p>
++	<ul>
++	  <li>bugfix: #2156412 safety approve option mixup</li>
++	  <li>bugfix: #2156372 currency modification date is not persisted due to extra space in code</li>
++	  <li>bugfix: #2155966 main window different colours for 0.00 account balances</li>
++	  <li>bugfix: #2155959 cannot inherit a locked reconciled transaction</li>
++	  <li>bugfix: #2155844 quick search no longer works in account window (ledger)</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
++    <release date="2026-06-06" version="5.10.1">
++      <description>
++	<p>This is a maintenance release with bugfix...</p>
++	<ul>
++	  <li>change: the input field helper icon + fixed some spacing inconsistency</li>
++	  <li>change: transaction, added some missing input tooltips and reworked existing</li>
++	  <li>change: category, payee and tag window add input now have a tooltip and button</li>
++	  <li>change: split window, refactored the layout</li>
++	  <li>change: split window, add display of memo and date</li>
++	  <li>wish  : #2106800 budget report option to exclude transfers from unbudgeted line</li>
++	  <li>bugfix: prevent deletion of non pending transaction when rejecting</li>
++	  <li>bugfix: transaction warning for no rate faultly showing in transfer</li>
++	  <li>bugfix: report missing space for filter tooltip icon</li>
++	  <li>bugfix: budget report missing filter tooltip</li>
++	  <li>bugfix: manage account closed icon was hidding budget icon</li>
++	  <li>bugfix: #2154771 view transcations requires hitting Escape or X twice to close dialog</li>
++	  <li>bugfix: #2154337 transfer to/from closed account with different currency don't show the amount</li>
++	  <li>bugfix: #2154234 scheduled transaction recurring pattern daily value limited to 100</li>
++	  <li>bugfix: #2149897 view split for closed accounts</li>
++	  <li>bugfix: #2148561 global time chart do not shows current period by default</li>
++	  <li>bugfix: #2148456 the main screen Total Chart is no longer showing an overall total</li>
++	  <li>bugfix: #2147497 editing a transaction resets scroll position</li>
++	  <li>bugfix: #2147377 balance mixup with transaction same day sort by amount</li>
++	  <li>bugfix: #2147052 quarter are wrong when fiscal year is jan 1</li>
++	  <li>bugfix: #2147048 all events for the month are late but today is only the 1st</li>
++	  <li>bugfix: #2144993 impossible to search for transactions by value for values >999,99</li>
++	  <li>bugfix: #2144698 adding new Category/Payee/Tags requires hitting -Enter-</li>
++	  <li>bugfix: #2144419 QIF Account name detection fail on import</li>
++	  <li>bugfix: #2142349 can't delete account groups</li>
++	  <li>bugfix: #2139409 account maximum limit is not fully used (example credit card)</li>
++	  <li>bugfix: #2133783 transfers shouldn't add to dashboard top spending reports</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
 +    <release date="2026-03-10" version="5.10">
 +      <description>
 +	<p>This is a major release with new features, and bugfix...</p>
