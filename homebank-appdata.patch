@@ -1,5 +1,5 @@
---- homebank-5.10.2/data/homebank.appdata.xml.in	2025-12-07 09:51:48.000000000 +0100
-+++ homebank/data/homebank.appdata.xml.in	2026-07-13 20:43:34.222748473 +0200
+--- homebank-5.10.3/data/homebank.appdata.xml.in	2025-12-07 09:51:48.000000000 +0100
++++ homebank/data/homebank.appdata.xml.in	2026-09-14 21:06:11.753232842 +0200
 @@ -1,24 +1,25 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<component type="desktop">
@@ -38,7 +38,7 @@
    </description>
    <categories>
      <category>Office</category>
-@@ -55,11 +56,536 @@
+@@ -55,11 +56,570 @@
      <keyword>chequing</keyword>
      <keyword>saving</keyword>
    </keywords>
@@ -66,6 +66,40 @@
 +  <update_contact>homebank@free.fr</update_contact>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
++    <release date="2026-09-14" version="5.10.3">
++      <description>
++	<p>This is a maintenance release with bugfix...</p>
++	<ul>
++	  <li>new: factorised some pickers</li>
++	  <li>new: ledger quicksearch support multi terms search</li>
++	  <li>new: ledger quicksearch support " for exact search (terms with space)</li>
++	  <li>new: completed translation of 60 languages using Claude AI</li>
++	  <li>new: full available languages rise from 20 to 80</li>
++	  <li>change: code naming sanitize > *item to *abvtype</li>
++	  <li>change: code naming sanitize > *entry to *abvtype</li>
++	  <li>change: code naming sanitize > archive to template</li>
++	  <li>change: code naming sanitize > operation to transaction</li>
++	  <li>change: speed optimisation with file of 14M txn, 60k acc/pay/cat/tag/tpl/sch/asg</li>
++	  <li>change: account manager could be slow due to template ComboBoxText in Behavior tab</li>
++	  <li>change: template manager merge dialog could be slow due to template ComboBoxText</li>
++	  <li>change: removed the date exclusion for filter</li>
++	  <li>bugfix: duplicate a template was not changing its key</li>
++	  <li>bugfix: #2162840 exclude date filter in statistics report does not work</li>
++	  <li>bugfix: #2162690 filter transaction type do not fully separate normal/transfer</li>
++	  <li>bugfix: #2162642 balance report list shows incomes in red</li>
++	  <li>bugfix: #2161855 "This Year" preset date filter fail when fiscal year is set to Aug 1st</li>
++	  <li>bugfix: #2161830 Bugdet option "Include transfer" is not persisted</li>
++	  <li>bugfix: #2161453 changes not always propagate when multiple ledger are opened</li>
++	  <li>bugfix: #2161266 "Result" and "Detail" to clipboard and CSV menu items are missing verbs and "â€¦"</li>
++	  <li>bugfix: #2161226 Remove G_GNUC_CONST from *get_type declarations</li>
++	  <li>bugfix: #2160080 inherit always enabled and crash if no transaction selected</li>
++	  <li>bugfix: #2159561 slowness of dialog to appear when edit a transaction</li>
++	  <li>bugfix: #2159560 ledger quicksearch match unwanted transaction</li>
++	  <li>bugfix: #2159010 summary page shows account in red</li>
++	</ul>
++      </description>
++      <url>https://www.gethomebank.org/ChangeLog</url>
++    </release>
 +    <release date="2026-06-14" version="5.10.2">
 +      <description>
 +	<p>This is a maintenance release with bugfix...</p>
