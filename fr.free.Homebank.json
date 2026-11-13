@@ -1,7 +1,7 @@
 {
     "id": "fr.free.Homebank",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "50",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "command": "homebank",
     "rename-icon": "homebank",
@@ -53,9 +53,13 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://ftp.gnu.org/gnu/gengetopt/gengetopt-2.23.tar.xz",
-                "sha256": "b941aec9011864978dd7fdeb052b1943535824169d2aa2b0e7eae9ab807584ac"
+                "url": "https://ftp.gnu.org/gnu/gengetopt/gengetopt-2.23.1.tar.xz",
+                "sha256": "3b9def48422bd45f78af95936200b7f9287369a3db76c4907c42fe10f4922ab6"
             },
+	    {
+		"type": "patch",
+		"path": "gengetopt-glibc.patch"
+	    },
             {
                 "type": "script",
                 "dest-filename": "autogen.sh",
@@ -77,7 +81,11 @@
                 "type": "archive",
                 "url": "https://github.com/libofx/libofx/releases/download/0.10.9/libofx-0.10.9.tar.gz",
                 "sha256": "1ca89ff7d681c9edad312172ac464231a8de686e653213612f9417492cef0d37"
-            }
+            },
+	    {
+		"type": "patch",
+		"path": "libofx-allocate.patch"
+	    }
         ]
     },
     "shared-modules/intltool/intltool-0.51.json",
